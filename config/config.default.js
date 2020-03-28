@@ -25,7 +25,7 @@ module.exports = appInfo => {
 
 
   config.cors = {
-    origin: 'http://127.0.0.1:3000',
+    origin: 'https://qiuyangq.github.io',
     allowMethods: 'GET,HEAD,PUT,POST,DELETE,PATCH,OPTIONS',
   };
 
@@ -35,7 +35,7 @@ module.exports = appInfo => {
       enable: false,
     },
     // 白名单
-    domainWhiteList: [ 'http://127.0.0.1:3000' ],
+    domainWhiteList: [ 'https://qiuyangq.github.io' ],
   };
 
   return {
